@@ -35,6 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-items: center;
     height: 40px;
     background-color: rgb(247, 247, 245);
     flex-grow: 1;
@@ -57,19 +58,20 @@
 }
 .straipsnio-containeris1 {
     display: flex;
-    flex-wrap:wrap;
+    flex-direction: column;
+    width: 33%;
     justify-content:center;
     background-color: beige;
-    text-align: right;
+    text-align: justify;
 }
     
 .mygtuko-nuoroda1{
     display: flex;
-    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: rgb(16, 17, 11);
     display: block;
-    width: 70%;
+    width: 100%;
     text-align: center;
     border-top: 1px solid black;
     border-left: 1px solid black;
@@ -85,4 +87,10 @@
     justify-content: center;
     border-bottom: 2px solid beige;
     
+}
+.straipsnio-pastraipa {
+    display: flex;
+    height: 100px;
+    text-align: justify;
+    align-items: center;
 }
