@@ -10,16 +10,7 @@
     border-bottom: 2px solid beige;
 
 }
-.meniu-juosta {
-    display: flex;
-    height: 60px;
-    background-color: rgb(85, 83, 83);
-    align-items: center;
-    gap: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    
-}
+
 .meniu-juosta {
     display: flex;
     height: 60px;
@@ -52,7 +43,6 @@
     display: flex;
     background-color: rgb(124, 124, 123);
     justify-content: space-between;
-
     border-bottom: 10px solid black;
     
 }
@@ -60,9 +50,12 @@
     display: flex;
     flex-direction: column;
     width: 33%;
-    justify-content:center;
     background-color: beige;
     text-align: justify;
+    column-gap: 20px;
+    justify-content: space-between;
+    
+     
 }
     
 .mygtuko-nuoroda1{
@@ -71,7 +64,8 @@
     text-decoration: none;
     color: rgb(16, 17, 11);
     display: block;
-    width: 100%;
+    width: 
+    %;
     text-align: center;
     border-top: 1px solid black;
     border-left: 1px solid black;
@@ -90,7 +84,7 @@
 }
 .straipsnio-pastraipa {
     display: flex;
-    height: 100px;
     text-align: justify;
     align-items: center;
 }
+
